@@ -13,7 +13,7 @@ export const listProducts = () => async (dispatch) => {
       dispatch({ type: PRODUCT_LIST_REQUEST });
 
       const { data } = await axios.get(
-        `/api/products`
+        `https://ecommerce-api12.herokuapp.com/api/products`
       );
      console.log(data);
       dispatch({
@@ -36,7 +36,7 @@ export const listProductDetails = (id) => async (dispatch) => {
     dispatch({ type: PRODUCT_DETAILS_REQUEST });
 
     const { data } = await axios.get(
-      `/api/products/${id}`
+      `https://ecommerce-api12.herokuapp.com/api/products/${id}`
     );
 
     dispatch({
