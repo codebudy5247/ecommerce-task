@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styles/topbar.css";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import HomeIcon from "@material-ui/icons/Home";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 export default function Topbar() {
   return (

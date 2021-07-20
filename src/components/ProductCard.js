@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/product.css";
 import { Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
-import CardMedia from '@material-ui/core/CardMedia';
 
 const ProductCard = ({ product }) => {
   return (
