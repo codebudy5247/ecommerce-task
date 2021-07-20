@@ -1,6 +1,6 @@
 {
   "name": "ecommerce",
-  "proxy": "https://online-shop22.herokuapp.com",
+  "proxy":"https://ecommerce-api12.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
